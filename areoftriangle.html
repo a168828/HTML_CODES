@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Area of Traingle - Simple JavaScript Example</title>
+    <script>
+      function findAreaOfTriangle()
+{
+        var RecLen, RecWid, Area;
+        RecLen = document.getElementById("rec_len").value;
+        RecWid = document.getElementById("rec_wid").value;
+        Area = RecLen * RecWid;
+        document.getElementById("result").value = Area;
+      }
+    </script>
+</head>
+<body>
+  <div class="container">
+    <br />
+      <h2>JavaScript to find Area of Square - Demo by Theonlytutorials.com</h2>
+    <br />
+    <div class="form-group">
+      <label for="rec_len">Enter Rectangle height:</label>
+      <input type="text" class="form-control" id="rec_len" >
+    </div>
+    <div class="form-group">
+      <label for="rec_wid">Enter Rectangle base:</label>
+      <input type="text" class="form-control req" id="rec_wid" >
+    </div>
+    <div class="form-group">
+      <label for="result">Result:</label>
+      <input type="text" class="form-control req" id="result" readonly >
+    </div>
+    <button type="submit" class="btn btn-default" onclick="findAreaOfTriangle()">Submit</button>
+  </div>
+</body>
+</html>

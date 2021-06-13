@@ -1,0 +1,49 @@
+Int A=10 
+
+Float  
+
+Double 
+
+ int a=10 
+
+a=20 
+
+ 
+
+A="123" 
+
+B="345" 
+
+print(A+B) 
+
+123345 
+
+ 
+
+A=input("enter the value of a") 
+
+B=input("enter the value of b") 
+
+print(A+B) 
+
+1020 
+
+ 
+
+A=int(input("enter the value of a")) 
+
+B=int(input("enter the value of b")) 
+
+Print(A+B) 
+
+print (type(A)) 
+
+ 
+
+x, y, z = input("Enter a two value: ").split() 
+
+print("Number of boys: ", x) 
+
+print("Number of girls: ", y) 
+
+ 
